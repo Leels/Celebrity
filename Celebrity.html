@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="js/jquery-3.3.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Celebrity Dating Quiz</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Celebrity Dating Quiz</h1>
+
+      <p>Find the celebrity of your dreams!</p>
+
+      <form id="quiz">
+
+        <select id="gender">
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+          <option value="noPreference">No Preference</option>
+        </select>
+        <select id="typeOf">
+          <option value="movieStar">Movie Star</option>
+          <option value="singer">Singer</option>
+          <option value="influencer">Instagram Influencer</option>
+        </select>
+        <select id="date">
+          <option value="beach">Relaxing by the beach</option>
+          <option value="cruise">Cruise getaway</option>
+          <option value="fancyDinner">Fancy dinner in the city</option>
+        </select>
+
+        <button type="submit" class="btn">Find your match!</button>
+      </form>
+
+      <div id="result">
+        <p>You are destined to be with <span id="celeb"></span>! Match made in heaven!</p>
+      </div>
+    </div>
+  </body>
+</html>
